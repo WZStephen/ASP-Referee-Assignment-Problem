@@ -1,38 +1,19 @@
-Insurance Referee Assignment Problem
-
+# Insurance Referee Assignment Problem
 ## Steps to run the code (referee.lp):
-
-## ● Step1: install the Clingo on either macOS or Windows via ​https://github.com/zhunyoung/clingoTutorial
-
-## (This instruction is demonstrating under MacOS)
-
-## ● Step2: Put the source code (referee.lp) at the same directory with input instances.
-
-## ● Step3: Open the Terminal and go to the directory has source code and instances.
-
-## ● Step4: On the Terminal run the following command line by line to get the result for each input instance
-
-## individually.
-
-## ○ clingo referee.lp instance1.asp 0
-
-## ○ clingo referee.lp instance2.asp 0
-
-## ○ clingo referee.lp instance3.asp 0
-
-## ○ clingo referee.lp instance4.asp 0
-
-## ○ clingo referee.lp instance5.asp 0
-
-## ● Note: ​ After running each command line above, the Clingo will generate 5 results individually depend on
-
-## each input instance
-
+#### Step1: install the Clingo on either macOS or Windows via ​https://github.com/zhunyoung/clingoTutorial (This instruction is demonstrating under MacOS)
+#### Step2: Put the source code (referee.lp) at the same directory with input instances.
+#### Step3: Open the Terminal and go to the directory has source code and instances.
+#### Step4: On the Terminal run the following command line by line to get the result for each input instance individually.
+## Commands: 
+#### clingo referee.lp instance1.asp 0
+#### clingo referee.lp instance2.asp 0
+#### clingo referee.lp instance3.asp 0
+#### clingo referee.lp instance4.asp 0
+#### clingo referee.lp instance5.asp 0
+##### Note: After running each command line above, the Clingo will generate 5 results individually depend oneach input instance
 ## The Output of all instance tested with the code:
-
-## Instance Number Command Line Output of Clingo
-
-## #1 clingo referee.lp instance1.asp 0^
+#### Instance Number Command Line Output of Clingo
+#### clingo referee.lp instance1.asp 0^
 
 ```
 clingo version 5.4.
@@ -59,7 +40,7 @@ Time : 0.006s (Solving: 0.00s 1st Model: 0.00s Unsat:
 0.00s)
 CPU Time : 0.006s
 ```
-## #2 clingo referee.lp instance2.asp 0^
+## clingo referee.lp instance2.asp 0^
 
 ```
 clingo version 5.4.
@@ -89,7 +70,7 @@ Time : 0.008s (Solving: 0.00s 1st Model: 0.00s Unsat:
 0.00s)
 CPU Time : 0.007s
 ```
-## #3 clingo referee.lp instance3.asp 0^
+## clingo referee.lp instance3.asp 0^
 
 ```
 clingo version 5.4.
@@ -116,7 +97,7 @@ Time : 0.007s (Solving: 0.00s 1st Model: 0.00s Unsat:
 0.00s)
 CPU Time : 0.007s
 ```
-## #4 clingo referee.lp instance4.asp 0^
+## clingo referee.lp instance4.asp 0^
 
 ```
 clingo version 5.4.
@@ -149,7 +130,7 @@ Time : 0.008s (Solving: 0.00s 1st Model: 0.00s Unsat:
 0.00s)
 CPU Time : 0.007s
 ```
-## #5 clingo referee.lp instance5.asp 0^
+## clingo referee.lp instance5.asp 0^
 
 ```
 clingo version 5.4.
